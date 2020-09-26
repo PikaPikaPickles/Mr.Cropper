@@ -12,10 +12,10 @@ while i < size(ImageOur, 1)
     end
     %SumMat(90)
     if (sum(SumMat(:)) > (740 * size(ImageOur, 2)))
-       d = i;
+        d = i;
         % d = ImageOur(1:i,:,:);
         break;
     end
-   i = i+5;
-   
+    i = i+5;
+    
 end
